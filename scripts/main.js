@@ -17,18 +17,7 @@
 // }
 
 
-let miImage = document.querySelector("img");
 
-miImage.onclick = function () {
-
-    let miSrc = miImage.getAttribute("src");
-
-    if (miSrc === "images/tigres-removebg-preview.png"){
-        miImage.setAttribute("src", "tigres-removebg-preview.png")
-    } else {
-        miImage.setAttribute("src", "images/tigre.jpg")
-    }
-}
 
 let miBoton = document.querySelector("button");
 
@@ -46,7 +35,7 @@ function estableceNombreUsuario() {
    
     localStorage.setItem("nombre","Apellido", miNombre,miApellido);
 
-    miTitulo.textContent = "Bienvenido Sr(a)," + miNombre + " " + miApellido
+    miTitulo.textContent = "Bienvenido Sr(a)," + miNombre +  miApellido
     }
     
 }
@@ -56,7 +45,7 @@ if(!localStorage.getItem("nombre")){
 
 } else {
     let nombAlm = localStorage.getItem("nombre","Apellido");
-    miTitulo.textContent = "Mozilla es genial," + nombAlm;
+    miTitulo.textContent = "Bienvenido Sr.(a)," + nombAlm;
 }
 
 miBoton.onclick = function () {
