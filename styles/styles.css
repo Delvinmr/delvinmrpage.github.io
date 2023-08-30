@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    /* background: #00539f; */
+    background-color:#00539f;
+    
+}
+
+body {
+    width: 600px;
+    margin:  0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+   
+}
+/* 
+p {
+
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+} */
+
+h1 {
+    font-size: 60px; /* tamaño del titulo del h1*/
+    text-align: center; /*con esta propiedad se centra el texto del h1*/
+    margin: 0;
+    padding: 2px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black ;
+}
+ img {
+
+    display: block;
+    /* margin: 0 auto; */
+   margin-top: 0;
+   margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+    
+    
+ }
+ 
+
+p,
+li {
+    font-size: 16px;
+     line-height: 2;/*esta propiedad le da un espacio de linea a un párrafo*/
+    letter-spacing: 1px; /*esta propiedad le da un espacio a las letras*/
+}
