@@ -23,8 +23,8 @@ miImage.onclick = function () {
 
     let miSrc = miImage.getAttribute("src");
 
-    if (miSrc === "images/tigres.jpg"){
-        miImage.setAttribute("src", "images/tigres.jpg")
+    if (miSrc === "images/tigres-removebg-preview.png"){
+        miImage.setAttribute("src", "tigres-removebg-preview.png")
     } else {
         miImage.setAttribute("src", "images/tigre.jpg")
     }
